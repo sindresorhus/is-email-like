@@ -1,0 +1,43 @@
+{
+  "name": "is-email-like",
+  "version": "0.0.0",
+  "description": "Check if a string is email like",
+  "license": "MIT",
+  "repository": "sindresorhus/is-email-like",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "text",
+    "regex",
+    "regexp",
+    "re",
+    "match",
+    "test",
+    "find",
+    "pattern",
+    "email",
+    "address",
+    "validate",
+    "check",
+    "is",
+    "string"
+  ],
+  "dependencies": {
+    "email-regex": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
