@@ -1,4 +1,4 @@
-# is-email-like [![Build Status](https://travis-ci.org/sindresorhus/is-email-like.svg?branch=master)](https://travis-ci.org/sindresorhus/is-email-like)
+# is-email-like
 
 > Check if a string is email like
 
