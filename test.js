@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var isEmailLike = require('./');
+import test from 'ava';
+import isEmailLike from './index.js';
 
-test(function (t) {
-	t.assert(isEmailLike('sindresorhus@gmail.com'));
-	t.assert(!isEmailLike('unicorn'));
+test('main', t => {
+	t.true(isEmailLike('sindresorhus@gmail.com'));
+	t.false(isEmailLike('unicorn'));
 });
