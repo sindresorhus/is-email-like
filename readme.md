@@ -6,8 +6,8 @@
 
 ## Install
 
-```
-$ npm install is-email-like
+```sh
+npm install is-email-like
 ```
 
 ## Usage
